@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 const App = () => {
   const [activeSection, setActiveSection] = useState('home');
@@ -13,12 +13,12 @@ const App = () => {
     name: "Ahmad Abbas",
     firstName: "Ahmad",
     role: "Front-End Web Developer",
-    email: "ahmadabbas@example.com",
-    phone: "+92 300 1234567",
-    location: "Attock, Pakistan",
-    github: "https://github.com/ahmadabbas",
-    linkedin: "https://linkedin.com/in/ahmadabbas",
-    fiverr: "https://fiverr.com/ahmadabbas"
+    email: "ahmadpaf1234@gmail.com",
+    phone: "+92 308 6099963",
+    location: "Islamabad, Pakistan",
+    github: "https://github.com/ahmad-abbas-cui",
+    linkedin: "https://www.linkedin.com/flagship-web/login/login-restriction/",
+    fiverr: "https://www.fiverr.com/?source=breadcrumbs"
   };
 
   const typingText = "Front-End Web Developer";
@@ -30,14 +30,14 @@ const App = () => {
   ];
 
   const skillsData = [
-    { name: "HTML5", percentage: 95 },
-    { name: "CSS3", percentage: 90 },
-    { name: "JavaScript", percentage: 80 },
-    { name: "React.js", percentage: 70 },
-    { name: "Tailwind CSS", percentage: 85 },
-    { name: "Responsive Design", percentage: 92 },
-    { name: "Git & GitHub", percentage: 75 },
-    { name: "WordPress", percentage: 60 }
+    { name: "HTML5", percentage: 85 },
+    { name: "CSS3", percentage: 70 },
+    { name: "JavaScript", percentage: 65 },
+    { name: "React.js", percentage: 60 },
+    { name: "Tailwind CSS", percentage: 75 },
+    { name: "Responsive Design", percentage: 60 },
+    { name: "Git & GitHub", percentage: 70 },
+    { name: "WordPress", percentage: 75 }
   ];
 
   const services = [
@@ -59,11 +59,11 @@ const App = () => {
   ];
 
   const experience = [
-    { id: 1, title: "Software Development Intern", company: "Alfa Origin", period: "2024 - Present", description: ["Worked on modern website development.", "Built responsive UI components.", "Learned teamwork and real-world development.", "Improved HTML, CSS, JavaScript, and React skills."] }
+    { id: 1, title: "Software Development Intern", company: "Alfa Origin", period: "JUne 2026 - Present", description: ["Worked on modern website development.", "Built responsive UI components.", "Learned teamwork and real-world development.", "Improved HTML, CSS, JavaScript, and React skills."] }
   ];
 
   const education = [
-    { id: 1, title: "Bachelor of Science in Computer Science", institution: "COMSATS University Islamabad", location: "Attock Campus", period: "2023 - 2027", description: "Currently pursuing BS in Computer Science with focus on web technologies and software development." }
+    { id: 1, title: "Bachelor of Science in Computer Science", institution: "COMSATS University Islamabad", location: "Attock Campus", period: "2024 - 2028", description: "Currently pursuing BS in Computer Science with focus on web technologies and software development." }
   ];
 
   const testimonials = [
